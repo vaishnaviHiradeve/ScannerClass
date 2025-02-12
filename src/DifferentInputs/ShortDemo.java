@@ -1,0 +1,17 @@
+package DifferentInputs;
+
+import java.util.Scanner;
+
+public class ShortDemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter byte value : ");
+		short s = sc.nextShort();
+		System.out.println("The Value Is : ");
+		System.out.println(s);
+
+	}
+
+}
